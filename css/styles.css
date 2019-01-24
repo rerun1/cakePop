@@ -1,0 +1,418 @@
+/* Akzidenz Grotesk converted */
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroLig.eot');
+  src : url('../fonts/akzidenz/AkzidGroLig.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroLig.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroLig.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroLig.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroRom.eot');
+  src : url('../fonts/akzidenz/AkzidGroRom.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroRom.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroRom.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroRom.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* altered Berthold name to make this Italic only named truetype with BE */
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroRomIt.eot');
+  src : url('../fonts/akzidenz/AkzidGroRomIt.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroRomIt.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroRomIt.woff') format('woff'),        url('../fonts/akzidenz/AkzidGroBEIt.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroBol.eot');
+  src : url('../fonts/akzidenz/AkzidGroBol.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroBol.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroBol.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroBol.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* altered Berthold name to make this Italic */
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroBolIt.eot');
+  src : url('../fonts/akzidenz/AkzidGroBolIt.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroBolIt.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroBolIt.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroBEBolIt.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroBla.eot');
+  src : url('../fonts/akzidenz/AkzidGroBla.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroBla.woff2') format('woff2'),        url('../fonts/akzidenz/AkzidGroBla.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroBla.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* End Akzidenz */
+@font-face {
+  font-family: 'akzidenz-grotesk-condensed';
+  src : url('../fonts/akzidenzBertCn/AkzidGroBELigCn.eot');
+  src : url('../fonts/akzidenzBertCn/AkzidGroBELigCn.eot?#iefix') format('eot'),
+        url('../fonts/akzidenzBertCn/AkzidGroBELigCn.woff2') format('woff2'),
+        url('../fonts/akzidenzBertCn/AkzidGroBELigCn.woff') format('woff'),
+        url('../fonts/akzidenzBertCn/AkzidGroBELigCn.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'akzidenz-grotesk-condensed';
+  src : url('../fonts/akzidenzBertCn/AkzidGroBECn.eot');
+  src : url('../fonts/akzidenzBertCn/AkzidGroBECn.eot?#iefix') format('eot'),
+        url('../fonts/akzidenzBertCn/AkzidGroBECn.woff2') format('woff2'),
+        url('../fonts/akzidenzBertCn/AkzidGroBECn.woff') format('woff'),
+        url('../fonts/akzidenzBertCn/AkzidGroBECn.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk-condensed';
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEMdCn.eot');
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEMdCn.eot?#iefix') format('eot'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEMdCn.woff2') format('woff2'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEMdCn.woff') format('woff'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEMdCn.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk-condensed';
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEMdCnIt.eot');
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEMdCn.eot?#iefix') format('eot'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEMdCnIt.woff2') format('woff2'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEMdCnIt.woff') format('woff'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEMdCnIt.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk-condensed';
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEBolCn.eot');
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEBolCn.eot?#iefix') format('eot'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEBolCn.woff2') format('woff2'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEBolCn.woff') format('woff'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEBolCn.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk-condensed';
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEXBdCn.eot');
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEXBdCn.eot?#iefix') format('eot'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEXBdCn.woff2') format('woff2'),        url('../fonts/akzidenzBertCn/AkzidGroBEXBdCn.woff') format('woff'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEXBdCn.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk-condensed';
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEXBdCnIt.eot');
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEXBdCnIt.eot?#iefix') format('eot'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEXBdCnIt.woff2') format('woff2'),        url('../fonts/akzidenzBertCn/AkzidGroBEXBdCnIt.woff') format('woff'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEXBdCnIt.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/*end akzidenz condensed*/
+/* freight display light*/
+@font-face {
+  font-family: 'freight-display-pro';
+  src : url('../fonts/freight/freightDisplayLight.eot');
+  src : url('../fonts/freight/freightDisplayLight.eot?#iefix') format('eot'),
+        url('../fonts/freight/freightDisplayLight.woff2') format('woff2'),
+        url('../fonts/freight/freightDisplayLight.woff') format('woff'),
+        url('../fonts/freight/freightDisplayLight.ttf') format('truetype');
+  font-weight: 300; /* freight display light from typekit */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/*freight*/
+
+/* global styles for fonts*/
+.caps {
+  font-variant-caps: all-small-caps;
+  letter-spacing: .02em;
+  margin: 1em 0 3em 0;
+}
+.minusXLtrsp {
+  letter-spacing: -.07em;
+}
+.minusLtrsp {
+  letter-spacing: -.02em;
+}
+.ltrsp {
+  letter-spacing: .1em;
+}
+.lessltrsp {
+  letter-spacing: .03em;
+}
+.noltrsp {
+  letter-spacing: 0em;
+}
+/* end global styles for fonts*/
+
+body {
+  font-family: 'akzidenz-grotesk-condensed', sans-serif;
+  font-variant: normal;
+  font-feature-settings: "liga" 1;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: .02em;
+  word-spacing: -.02em;
+  color: rgba(68,32,20,1.0);
+  margin:0;
+  padding:0;
+}
+@supports (font-variant-ligatures: common-ligatures) {
+  body {
+      font-feature-settings: normal;
+      font-variant-ligatures: common-ligatures;
+  }
+}
+.confettiCakePop {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-image: url("../img/confetti.png"), url("../img/cakePopKO.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto, 241px 405px;
+  background-position: top center, bottom right;
+  margin: 0;
+  padding: 2em 1em 0 2em;
+}
+h1 {
+  font-family: 'freight-display-pro', serif;
+  font-variant: normal;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3em;
+  line-height: 1;
+  color: rgba(91,42,26,1.0);
+  margin:0;
+  padding:0;
+}
+.intro {
+  font-family: 'freight-display-pro', serif;
+  font-variant: normal;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1;
+  color: rgba(91,42,26,1.0);
+  margin:0;
+  padding:.5em 2em 1em 0;
+}
+.recipeBox {
+  width: 50%;
+  border: 1px solid rgba(135,121,121,1.0);
+  margin: 0;
+  padding: 1em;
+}
+.recipeHead {
+  width: 100%;
+  color: white;
+  margin: -1em 0 2em 0;
+}
+h6 {
+  text-align: center;
+  background-color: rgba(135,121,121,1.0);
+  margin: 0 3em;
+  padding: .25em;
+}
+h2 {
+  color: rgba(135,121,121,1.0);
+}
+.akzidenzReg {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .2em;
+  word-spacing: -.02em;
+}
+.akzidenzMedCon {
+  font-style: normal;
+  font-weight: 500;
+  font-size: .9em;
+  letter-spacing: .02em;
+  word-spacing: -.02em;
+}
+ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+.yield {
+  color: rgba(68,32,20,0.85);
+  font-size: .9em;
+  line-height: 1.25;
+  margin: 0 0 0 1em;
+}
+
+
+/* Akzidenz Grotesk Converted */
+.akzidenz {
+  font-family: 'akzidenz-grotesk', sans-serif;
+  font-variant: normal;
+}
+.akzidenzLight {
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .02em;
+  word-spacing: -.01em;
+}
+
+.akzidenzRegItalic {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: .01em;
+}
+.akzidenzBold {
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .03em;
+  word-spacing: -.01em;
+}
+.akzidenzBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: .01em;
+}
+.akzidenzBlack {
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: .03em;
+  word-spacing: -.01em;
+}
+/*end akzidenz*/
+/* Akzidenz Grotesk Converted */
+.akzidenzCon {
+  font-family: 'akzidenz-grotesk-condensed', sans-serif;
+  font-variant: normal;
+
+}
+.akzidenzLightCon {
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .02em;
+  word-spacing: -.01em;
+}
+/*fake no italic for bold,reglight*/
+.akzidenzLightConItalic {
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: .02em;
+  word-spacing: -.02em;
+}
+.akzidenzRegCon {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .01em;
+}
+.akzidenzRegConItalic {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: .01em;
+}
+.akzidenzMedCon {
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: .02em;
+  word-spacing: -.02em;
+}
+.akzidenzMedConItalic {
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: .01em;
+}
+.akzidenzBoldCon {
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .03em;
+  word-spacing: -.01em;
+}
+.akzidenzBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: .01em;
+}
+.akzidenzBlackCon {
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: .03em;
+  word-spacing: -.01em;
+}
+.akzidenzBlackConItalic {
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: .03em;
+  word-spacing: -.01em;
+}
+
+/*end akzidenz condensed*/
+/* freight display */
+.freightDisplay {
+  font-family: 'freight-display-pro', serif;
+  font-variant: normal;
+}
+.freightDisplayLight {
+  font-style: normal;
+  font-weight: 300;
+}
+/*endFreight*/
