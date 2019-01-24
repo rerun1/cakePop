@@ -209,6 +209,10 @@
 /* end global styles for fonts*/
 
 body {
+  background-image: url("../img/confetti.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
   font-family: 'akzidenz-grotesk-condensed', sans-serif;
   font-variant: normal;
   font-feature-settings: "liga" 1;
@@ -219,7 +223,7 @@ body {
   word-spacing: -.02em;
   color: rgba(68,32,20,1.0);
   margin:0;
-  padding:0;
+  padding:1em;
 }
 @supports (font-variant-ligatures: common-ligatures) {
   body {
@@ -228,15 +232,15 @@ body {
   }
 }
 .confettiCakePop {
-  position: absolute;
+  position: relative;
   top: 0;
-  bottom: 0;
-  background-image: url("../img/confetti.png"), url("../img/cakePopKO.png");
+  left: 0;
+  background-image: url("../img/cakePopKO.png");
   background-repeat: no-repeat;
-  background-size: 100% auto, 241px 405px;
-  background-position: top center, bottom right;
+  background-size: 241px 405px;
+  background-position: bottom right;
   margin: 0;
-  padding: 2em 1em 0 2em;
+  padding: 0 1em;
 }
 h1 {
   font-family: 'freight-display-pro', serif;
@@ -249,6 +253,10 @@ h1 {
   margin:0;
   padding:0;
 }
+img {
+  width: 85%;
+  margin: .5em 0 .25em 0;
+}
 .intro {
   font-family: 'freight-display-pro', serif;
   font-variant: normal;
@@ -258,53 +266,125 @@ h1 {
   line-height: 1;
   color: rgba(91,42,26,1.0);
   margin:0;
-  padding:.5em 2em 1em 0;
+  padding:.75em 4em 1.15em 0;
 }
 .recipeBox {
-  width: 50%;
+  width: 85%;
   border: 1px solid rgba(135,121,121,1.0);
   margin: 0;
-  padding: 1em;
+  padding: 0;
 }
 .recipeHead {
-  width: 100%;
+  letter-spacing: .2em;
   color: white;
-  margin: -1em 0 2em 0;
+  margin: 0;
+  padding:0 10em;
 }
 h6 {
   text-align: center;
   background-color: rgba(135,121,121,1.0);
-  margin: 0 3em;
+  margin: 0;
   padding: .25em;
 }
 h2 {
   color: rgba(135,121,121,1.0);
-}
-.akzidenzReg {
+  margin: .5em 0 .5em 0;
+  padding: 0;
+  letter-spacing: .11em;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: .2em;
-  word-spacing: -.02em;
+
+}
+h3 {
+  color: rgba(135,121,121,1.0);
+  margin: .5em 0 .5em 0;
+  padding: 0;
+  letter-spacing: .03em;
+  font-style: italic;
+  font-weight: 400;
 }
 .akzidenzMedCon {
-  font-style: normal;
   font-weight: 500;
   font-size: .9em;
-  letter-spacing: .02em;
   word-spacing: -.02em;
 }
 ul {
   list-style: none;
   margin:0;
   padding:0;
+  line-height: 1.25;
+}
+li {
+  padding: 0 0 .5em 0;
 }
 .yield {
   color: rgba(68,32,20,0.85);
   font-size: .9em;
-  line-height: 1.25;
-  margin: 0 0 0 1em;
+  line-height: 1;
+  margin: 1em 0 0 1em;
+  text-indent: -.5em;
+}
+.ingredients {
+  color: rgba(68,32,20,0.85);
+  font-size: 1em;
+  line-height: 1;
+  margin: .5em 0 .75em 1.7em;
+  text-indent: -1.2em;
+  padding: 0 5em 0 0;
+}
+.ingredients > li::before {
+  content: "•";
+  font-size: .75em;
+  padding: 0 .5em 0 0;
+}
+.specialEquipment {
+  color: rgba(68,32,20,0.85);
+  font-size: 1em;
+  line-height: 1;
+  margin: 1em 0 0 0;
+}
+.specialEquipment > li::before {
+  content: "-";
+  font-weight: 500;
+  font-size: .75em;
+  padding: 0 .5em 0 0;
+}
+p {
+  padding: 1em 0 0 -.5em;
+  text-indent: 1em;
+}
+.cooksNotes > li::before {
+  content: "\2731";
+  font-size: .35em;
+  vertical-align: super;
+  padding: 0 .5em 0 0;
+}
+.cooksNotes > p {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  text-indent: 0;
 }
 
+@media only all and (max-width: 1200px) {
+  .recipeHead {
+    padding:0 6em;
+  }
+}
+@media only all and (max-width: 900px) {
+  .recipeHead {
+    padding:0 3em;
+  }
+}
+@media only all and (max-width: 600px) {
+  .recipeHead {
+    padding:0 2em;
+  }
+}
+@media only all and (max-width: 450px) {
+  .recipeHead {
+    padding:0 1em;
+  }
+}
 
 /* Akzidenz Grotesk Converted */
 .akzidenz {
@@ -317,7 +397,6 @@ ul {
   letter-spacing: .02em;
   word-spacing: -.01em;
 }
-
 .akzidenzRegItalic {
   font-style: italic;
   font-weight: 400;
@@ -340,8 +419,7 @@ ul {
   letter-spacing: .03em;
   word-spacing: -.01em;
 }
-/*end akzidenz*/
-/* Akzidenz Grotesk Converted */
+
 .akzidenzCon {
   font-family: 'akzidenz-grotesk-condensed', sans-serif;
   font-variant: normal;
@@ -360,11 +438,7 @@ ul {
   letter-spacing: .02em;
   word-spacing: -.02em;
 }
-.akzidenzRegCon {
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: .01em;
-}
+
 .akzidenzRegConItalic {
   font-style: italic;
   font-weight: 400;
